@@ -1,0 +1,43 @@
+import re
+import pyphen
+#Uso da biblioteca é necessário
+#Texto que será utilizado no teste
+input = ("texto")
+input = texto
+
+#Total de palavras
+palavras = texto.split()
+total_palavras = len(palavras)
+print(f"Total de palavras: {total_palavras}")
+
+#Total de frases
+frases = re.split(r'[.!?]+', texto)
+frases = [frase.strip() for frase in frases if frase.strip()]
+quantidade_frases = len(frases)
+print(f"Total de frases: {quantidade_frases}")
+
+#Total de silabas
+def contar_silabas_pt(texto):
+    dic = pyphen.Pyphen(lang='pt_BR')
+    palavras = texto.split()
+    total_silabas = 0
+
+    for palavra in palavras:
+        silabas = dic.inserted(palavra).split('-')
+        total_silabas += len(silabas)
+
+    return total_silabas
+
+#Silabas armazenadas
+total_silabas = contar_silabas_pt(texto)
+print(f"Total de sílabas: {total_silabas}")
+
+#Função para calcular o índice de leiturabilidade
+def calcular_total(total_palavras, quantidade_frases, total_silabas):
+    total = ( 248.835 - (1.015 * (total_palavras / quantidade_frases)) - (84.6 * (total_silabas / total_palavras)) )
+    return total
+
+# Calculo final
+resultado_final = calcular_total( total_palavras, quantidade_frases, total_silabas)
+
+print(f"O resultado total é: {resultado_final:.2f}")
