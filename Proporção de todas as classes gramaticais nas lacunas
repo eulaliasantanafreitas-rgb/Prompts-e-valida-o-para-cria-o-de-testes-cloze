@@ -1,0 +1,28 @@
+import spacy
+from collections import Counter
+
+# Modelo em português
+nlp = spacy.load("pt_core_news_sm")
+
+# Coloque o gabarito
+texto = "GABARITO"
+
+# Processar o texto
+doc = nlp(texto)
+
+# Definir classes
+classes_gramaticais = [token.pos_ for token in doc if token.pos_ in ["PUNCT"]]
+
+# frequência
+frequencia = Counter(classes_gramaticais)
+
+# Resultados
+print("Frequência de classes gramaticais:")
+for classe, quant in frequencia.items():
+    print(f"{classe}: {quant}")
+
+#classe gramatical por palavra
+print("\nClasse gramatical por palavra:")
+for token in doc:
+    if token.pos_ != "PUNCT":
+        print(f"{token.text}: {token.pos_}")
