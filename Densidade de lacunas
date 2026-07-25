@@ -1,0 +1,21 @@
+from collections import Counter
+import re
+# Coloque o teste cloze
+texto_longo = "João foi à aula na manhã fria. Ele levou o livro e o lápis. A rua da sua vila era longa e boa. Ele viu um gato no muro de pedra. O gato o __________ bem e logo saiu. Na aula a mestre leu um conto do livro. A turma a ouviu com muita calma. João gostou do conto e __________ ler mais. A mestre deu um novo livro para João. A sala ficou em paz e bem quieta. No recreio João jogou bola com a turma. Eles riram e __________ ao pátio da escola. A bola caiu e ele foi lá e a pegou. Ele deu a bola para o novo amigo. Eles __________ beber água pura e fria. À tarde ele voltou para casa bem feliz. Sua mãe fez uma boa sopa quente. Ele comeu tudo e pediu mais pão. Ele __________ ao quarto e leu o livro novo."
+
+# Calcular o número de lacunas
+num_lacunas = texto_longo.count("__________")
+print(f"Total de lacunas: {num_lacunas}")
+# Calcular o número de palavras 
+palavras = texto_longo.split()
+total_palavras = len(palavras)
+print(f"Total de palavras: {total_palavras}")
+
+# Proporção da densidade de lacunas 
+def calcular_operacoes(num_lacunas_param, total_palavras_param):
+    divisao = total_palavras_param / num_lacunas_param
+    resultado_divisão = total_palavras_param / num_lacunas_param
+    return divisao, resultado_divisão
+
+divisao, resultado_divisão = calcular_operacoes(num_lacunas, total_palavras)
+print(f"O resultado total é: {resultado_divisão:.2f}")
