@@ -1,0 +1,22 @@
+import spacy
+from collections import Counter
+
+# Modelo em português
+nlp = spacy.load("pt_core_news_sm")
+
+# Coloque o gabarito
+texto = "GABARITO"
+
+# Processar o texto
+doc = nlp(texto)
+
+# Definir classes analisadas (as quais são: ADJ: Adjetivo, ADP: Adposição (preposição ou pós-posição), ADV: Advérbio, AUX: Verbo auxiliar, CCONJ: Conjunção coordenativa, DET: Determinante (artigos e pronomes determinantes), INTJ: Interjeição, NOUN: Substantivo comum, NUM: Numeral, PART: Partícula, PRON: Pronome pessoal ou possessivo, PROPN: Substantivo próprio, PUNCT: Pontuação, SCONJ: Conjunção subordinativa, SYM: Símbolo, VERB: Verbo principal, X: Outro / Desconhecido)
+classes_gramaticais = [token.pos_ for token in doc if token.pos_ in ["COLOQUE AS CLASSES DESEJADAS"]]
+
+# frequência
+frequencia = Counter(classes_gramaticais)
+
+# Resultados
+print("Frequência de classes gramaticais:")
+for classe, quant in frequencia.items():
+    print(f"{classe}: {quant}")
