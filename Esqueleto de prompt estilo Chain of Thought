@@ -34,22 +34,22 @@ Inclua o gabarito
 
 
 Legenda da numeração:
-Quantidade de palavras
+1. Quantidade de palavras
 Número que não é escolhido pela pessoa e só aparece no resultado final
-Quantidade de frases
+2. Quantidade de frases
 Número que não é escolhido pela pessoa e só aparece no resultado final
-Quantidade de sílabas
+3. Quantidade de sílabas
 Número que não é escolhido pela pessoa e só aparece no resultado final
-índice Flesch brasileiro
+4. índice Flesch brasileiro
 sinalização 1 a 100
-Ano escolar
+5. Ano escolar
 1 a 5 fundamental 
 1 a 3 ensino médio
-Tipo de habilidade 
+6. Tipo de habilidade 
 Geral
 Específica
 Geral e Específica
-Matéria escolar 
+7. Matéria escolar 
 LP - Língua portuguesa
 MA - Matemática
 HI - História
@@ -63,19 +63,19 @@ CNT - Ciências da natureza e suas tecnologias
 LGG - Linguagens e suas tecnologias
 CHS - Ciências humanas e sociais aplicadas
 MAT - Matemática e suas tecnologias 
-Gênero textual
+8. Gênero textual
 Narrativo
 Descritivo 
 Dissertativo
 Injuntivo
 Expositivo
-Tema
+9. Tema
 Escrito pelo consumidor
-Sequência de anulações 
+10. Sequência de anulações 
 de 1 a cada 5 palavras
 de 1 a cada 7 palavras
 sistematizada para atender o tipo de aplicação 
-omissões de classes gramaticais 
+11. Omissões de classes gramaticais 
 Artigos
 Conjunções
 Preposições
@@ -84,12 +84,11 @@ Verbos
 Adjetivos 
 Advérbios 
 Substantivos 
-Tipos de aplicação
+12. Tipos de aplicação
 Teste de vocabulário e gramática: Omissão de itens lexicais específicos ao tema 
 Teste de medida da leiturabilidade: Omissão de itens lexicais e gramaticais
 Teste de produção: Omissão sistemática para se avaliar a habilidade de produção textual pela construção de sentido do texto 
 Teste de proficiência da língua:  Omissões focadas para avaliar conhecimentos de estrutura frasal, vocabulário e gramática 
-
-Múltipla escolha 
+13. Múltipla escolha 
 O teste tem 
 O teste não tem 
