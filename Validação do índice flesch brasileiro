@@ -1,8 +1,8 @@
 import re
 import pyphen
-#Uso da biblioteca é necessário
+
 #Texto que será utilizado no teste
-input = ("texto")
+input = ("TEXTO")
 input = texto
 
 #Total de palavras
