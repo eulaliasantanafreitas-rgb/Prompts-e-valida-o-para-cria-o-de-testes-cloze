@@ -1,0 +1,95 @@
+Parte 1; 
+Produza um texto com as seguintes regras: 
+segue o Índice Flesch brasileirol, uma métrica que avalia o compreensão de texto para cada nível escolar e facilidade, sua medida é de 1 a 100 cálculo: ÍNDICE = 248,835 - [1.015 x (total de palavras/total de frases)] - [84,6 x (total de sílabas/total de palavras)]
+Mostrar a execução do cálculo passo a passo
+A quantidade de palavras tem que ser [1], a quantidade de frases tem que ser [2] e a quantidade de sílabas precisa ser [3].
+Os requisitos da BNCC para o fundamental  e ensino médio, seguindo as séries de 1 a 9 fundamental ou ensino médio de 1 a 3 ano.
+Seguir uma dos seguintes gêneros textuais: narrativo, descritivo, dissertativo, injuntivo, expositivo.
+Dentro destas regras este texto deve seguir: 
+Segue o nível [4] no índice Flesch-Kincaid grade level com o cálculo: ÍNDICE = 248,835 - [1.015 x ([1]/[2])] - [84,6 x [3]/[1])].
+segue as habilidade de leitura da bncc para o [5] do tipo  [6], da matéria [7]
+é do gênero textual [8].
+Segue o tema: [9]
+
+Parte 2;
+Com este texto produza um teste cloze, um teste de leiturabilidade que avalia o nível de compreensão textual omitindo palavras em um texto, além disso as omissões devem ser seguidas na sequência [10], as omissões devem ser feitas dependendo da classe gramatical, às ideias e modelo de aplicação do teste cloze devem ser seguidas pelos seguintes autores 
+ABREU, K. N. M.; GARCIA, D. C. G.; HORA, K. F. P.N. A; SOUZA, C. R. O teste de Cloze como instrumento de medida da proficiência em leitura: fatores linguísticos e não linguísticos. Revista de Estudos da Linguagem Belo Horizonte, v.25, n.3, p.1767-1799, 2017.
+
+SÖHNGEN, C. O procedimento “Cloze”. In: Letras de Hoje. Porto Alegre, v, 37. Nº 2, p. 65-75, junho, 2002.
+ 
+CARDOSO, P.B. MENEZES, K.V. Adivinhando palavras. In: Pra ler melhor. Organizadores: FREITAG, Raquel e TEJADA, Julian. p. 63-71 (no prelo).
+
+TAYLOR, W. L. “Cloze procedure”: A new tool for measuring readability. Journalism Quarterly, 30(4), 415-433. 1953.
+
+SIQUEIRA, Maity,ZIMMER, Maria Cristina. Aspectos Linguísticos e Cognitivos da leitura. Disponível em: < http://www.repositorio.ufc.br/ri/bitstream/riufc/1238/1/2006_art_MSiqueira.pdf>. 
+
+SANTOS, Acásia A.A.dos Santos,BORUCHOVITCH, Evely,OLIVEIRA, Katya L.de Oliveira. Cloze: um instrumento de diagnóstico e intervenção.São Paulo: Casa do Psicólogo, 2009.
+
+O teste deve ser feito com as seguintes regras: 
+Só é possível omitir as classes gramaticais: [11] 
+Deve seguir a aplicação: [12] 
+[13] múltipla escolha 
+Mostre o raciocínio de omissões 
+Inclua o gabarito 
+
+
+Legenda da numeração:
+Quantidade de palavras
+Número que não é escolhido pela pessoa e só aparece no resultado final
+Quantidade de frases
+Número que não é escolhido pela pessoa e só aparece no resultado final
+Quantidade de sílabas
+Número que não é escolhido pela pessoa e só aparece no resultado final
+índice Flesch brasileiro
+sinalização 1 a 100
+Ano escolar
+1 a 5 fundamental 
+1 a 3 ensino médio
+Tipo de habilidade 
+Geral
+Específica
+Geral e Específica
+Matéria escolar 
+LP - Língua portuguesa
+MA - Matemática
+HI - História
+GE - Geografia
+CI - Ciências 
+AR - Arte
+LI - Língua inglesa
+EF - Educação física 
+ER - Ensino religioso 
+CNT - Ciências da natureza e suas tecnologias
+LGG - Linguagens e suas tecnologias
+CHS - Ciências humanas e sociais aplicadas
+MAT - Matemática e suas tecnologias 
+Gênero textual
+Narrativo
+Descritivo 
+Dissertativo
+Injuntivo
+Expositivo
+Tema
+Escrito pelo consumidor
+Sequência de anulações 
+de 1 a cada 5 palavras
+de 1 a cada 7 palavras
+sistematizada para atender o tipo de aplicação 
+omissões de classes gramaticais 
+Artigos
+Conjunções
+Preposições
+Interjeições 
+Verbos 
+Adjetivos 
+Advérbios 
+Substantivos 
+Tipos de aplicação
+Teste de vocabulário e gramática: Omissão de itens lexicais específicos ao tema 
+Teste de medida da leiturabilidade: Omissão de itens lexicais e gramaticais
+Teste de produção: Omissão sistemática para se avaliar a habilidade de produção textual pela construção de sentido do texto 
+Teste de proficiência da língua:  Omissões focadas para avaliar conhecimentos de estrutura frasal, vocabulário e gramática 
+
+Múltipla escolha 
+O teste tem 
+O teste não tem 
